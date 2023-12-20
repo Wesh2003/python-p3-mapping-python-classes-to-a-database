@@ -28,6 +28,7 @@ class Song:
 
     @classmethod
     def create(cls, name, album):
-        song = Song (name, album)
+        song = Song(name, album)
         song.save()
         return song
+
